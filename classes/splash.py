@@ -22,6 +22,8 @@ class Splash():
         self.__screen.blit(self.__backround, (0, 0))
         text = self.__font.render("Игра Защити БАШНЮ", True, (255,255,255))
         self.__screen.blit(text, (5, 30))
+        text = self.__font.render("Нажмите пробел для продолжения", True, (255, 255, 255))
+        self.__screen.blit(text, (5, 60))
         pygame.display.flip()
 
 
